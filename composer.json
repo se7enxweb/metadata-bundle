@@ -24,7 +24,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.0.x-dev"
+            "dev-master": "3.0.x-dev",
+            "dev-3.0-se7enx": "3.0.x-dev"
         }
     }
 }
