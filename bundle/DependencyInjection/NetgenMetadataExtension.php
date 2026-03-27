@@ -25,7 +25,7 @@ final class NetgenMetadataExtension extends Extension implements PrependExtensio
     {
         $configFile = __DIR__ . '/../Resources/config/ibexa.yaml';
         $config = Yaml::parse(file_get_contents($configFile));
-        $container->prependExtensionConfig('ibexa', $config);
+        $container->prependExtensionConfig('ezpublish', $config);
         $container->addResource(new FileResource($configFile));
     }
 }

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Netgen\Bundle\MetadataBundle\Form\Type\FieldType;
 
-use Ibexa\Contracts\Core\FieldType\FieldType;
+use eZ\Publish\SPI\FieldType\FieldType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
@@ -15,7 +15,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 final class MetadataFieldType extends AbstractType
 {
     /**
-     * @var \Ibexa\Contracts\Core\FieldType\FieldType
+     * @var \eZ\Publish\SPI\FieldType\FieldType
      */
     private $fieldType;
 
