@@ -1,6 +1,6 @@
 {
     "name": "se7enxweb/metadata-bundle",
-    "description": "Metadata bundle for eZ Platform / Exponential Platform. Based on xrowmetadata extension for eZ Publish Legacy.",
+    "description": "Metadata bundle for Ibexa 5.x / Exponential Platform. Based on xrowmetadata extension for eZ Publish Legacy.",
     "license": "GPL-2.0-only",
     "authors": [
         {
@@ -13,8 +13,8 @@
         }
     ],
     "require": {
-        "php": "^7.3 || ^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4 || ^8.5",
-        "ezsystems/ezplatform-kernel": "^1.0"
+        "php": "^8.4",
+        "ibexa/core": "^5.0"
     },
     "replace": {
         "netgen/metadata-bundle": "self.version"
@@ -24,7 +24,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.0.x-dev"
+            "dev-5.0.x": "5.0.x-dev"
         }
     }
 }
